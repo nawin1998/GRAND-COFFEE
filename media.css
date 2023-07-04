@@ -1,0 +1,200 @@
+@media only screen and (min-width: 200px) and (max-width: 991px){
+    header{
+        position: sticky;
+        width: 100%;
+        top: 0;
+    }
+    .logo{
+        position: relative;
+        right: 80px;
+    }
+    .logo img{
+        height: 20px;
+        width: 200px;
+        top: 8px;
+    }
+    .nav-bar{
+        height: 0;
+        position: absolute;
+        top: 90px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background: var(--head-color);
+        transition: 0.2s;
+        overflow: hidden;
+        z-index: 2;
+    }
+    .nav-bar.active{
+        height: 300px;
+    }       
+    .nav-bar ul{
+        display: block;
+        width: fit-content;
+        margin: 80px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+    }  
+    .nav-bar.active ul{
+        position: relative;
+        bottom: 70px;
+        opacity: 1;
+    }
+    .nav-bar ul li a{
+        position: relative;
+        right: 20px;
+        line-height: 2;
+        color: var(--a-color);
+    }
+    .nav-bar i{
+        position: absolute ;
+        left: 195px;
+        bottom: 40px;
+        font-size: 20px;
+        color: var(--a-color);
+    }
+    .hamburger{
+        position: relative;
+        height: 41px;
+        padding: 0 10px;
+        top: 0px;
+        right: 0px;
+        background-color: white;
+        display: block;
+        cursor: pointer;
+    }
+    .hamburger .line{
+        position: relative;
+        width: 30px;
+        height: 3px;
+        background: grey;
+        margin: 7px 0;   
+    }
+    /* home */
+    .home{
+        background-image: url(images/banner-bg.png);
+        background-size: cover;
+        position: relative;
+        height: 45rem;
+    }
+    .swiper {
+        position: relative;
+        height: 510px;
+        width: 375px;
+        top: 25%;
+        right: 3px;
+        
+    }
+    .swiper .swiper-button-next{
+        position: absolute;
+        top: 400px;
+        left: 120px;
+        color: #000000;
+        padding: 30px;
+        background-color: #ffffff;
+    
+    }
+    .swiper .swiper-button-prev{
+        position: absolute;
+        top: 400px;
+        left: 30px;
+        color: #000000;
+        padding: 30px;
+        background-color: #ffffff;
+    
+    }
+    /* about */
+    /* gallery */
+    
+    .galle1:hover .icoded{
+        display: none;
+    }
+    .galle1:hover .icoded1{
+        display: none;
+    }
+    .galle1:hover .icoded2{
+        display: none;
+    }
+    /* service */
+    .service{
+        background-attachment: fixed;
+        background-size: cover;
+        min-height: 75rem;
+    }
+    .serv-card{
+        position: relative;
+        height: 300px;
+        width: 365px;  
+        margin-top: 30px;
+
+    }
+    .hoveding{
+        position: absolute;
+        top: 316.8rem;
+        height: 300px;
+        width: 365px;
+    }
+    .hoveding .btn4{
+        top: 90px;
+        left: 100px;
+    }
+    .hoveding1{
+        position: absolute;
+        top: 337.4rem;
+        height: 300px;
+        width: 365px;
+    }
+    .hoveding1 .btn4{
+        top: 90px;
+        left: 100px;
+    }
+    .hoveding2{
+        position: absolute;
+        top: 358.1rem;
+        height: 300px;
+        width: 365px;
+    }
+    .hoveding2 .btn4{
+        top: 90px;
+        left: 100px;
+    }
+
+    /* test */
+    .containeres{
+        width: 100%;
+        margin: auto;
+    }
+    .view-box{
+        width: 96%;
+        height: 24rem;
+        
+    }
+    .testimonials{
+        flex-direction: column;
+        width: 100%;
+    }
+    .user h3{
+        position: relative;
+        left: 420px;
+        font-weight: 700;
+        color: var(--h1-color);
+    }
+    .user img{
+        position: relative;
+        left: 550px;
+        bottom: 35px;
+    }
+    .user p{
+        width: 20rem;
+        margin-left: 420px;
+        font-size: 12px;
+    }
+    /* form */
+    .mapers iframe{
+        padding: 0px;
+        width: 23rem;
+        height: 25rem;
+    }
+    
+}
