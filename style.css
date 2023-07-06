@@ -10,6 +10,7 @@
     --head-color:#252525;
     --h1-color:#f76d37;
     --a-color:#ffffff;
+    --swiper-navigation-size: 15px;
 }
 html{
     scroll-padding-top: 5.6rem;
@@ -71,6 +72,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 42rem;
+
 }
 
 .swiper {
@@ -119,11 +121,11 @@ header{
 .swiper .swiper-button-next{
     position: absolute;
     top: 400px;
-    left: 730px;
+    left: 690px;
     color: #000000;
     height: 20px;
     width: 30px;
-    padding: 30px;
+    padding: 20px;
     background-color: #ffffff;
 
 }
@@ -137,14 +139,16 @@ header{
     color: #000000;
     height: 20px;
     width: 30px;
-    padding: 30px;
+    padding: 20px;
     background-color: #ffffff;
 
 }
 .swiper .swiper-button-prev:hover{
     background-color: var(--h1-color);
 }
-
+.mySwiper [class^="swiper-button-"]::after{
+    font-size: 20px;
+}
 /* about */
 .abou{
     position: relative;
@@ -198,7 +202,7 @@ header{
     height: 300px;
     width: 450px;
 }
-.icoded{
+.icoded1, .icoded2, .icoded3{
     position: absolute;
     display: none;
     height: 300px;
@@ -206,7 +210,15 @@ header{
     top: 97.4rem;
     background:linear-gradient(rgba(250, 250, 250, 0.356),rgba(249, 247, 247, 0.367))
 }
-.icoded1{
+.icoded1 i, .icoded2 i, .icoded3 i{
+    position: absolute;
+    color: var(--head-color);
+    font-size: 55px;
+    font-weight: 800;
+    top: 120px;
+    left: 170px;
+}
+.icoded4, .icoded5, .icoded6{
     position: absolute;
     display: none;
     height: 300px;
@@ -214,7 +226,15 @@ header{
     top: 117.2rem;
     background:linear-gradient(rgba(250, 250, 250, 0.356),rgba(249, 247, 247, 0.367))
 }
-.icoded2{
+.icoded4 i, .icoded5 i, .icoded6 i{
+    position: absolute;
+    color: var(--head-color);
+    font-size: 55px;
+    font-weight: 800;
+    top: 120px;
+    left: 170px;
+}
+.icoded7, .icoded8, .icoded9{
     position: absolute;
     display: none;
     height: 300px;
@@ -222,37 +242,39 @@ header{
     top: 137rem;
     background:linear-gradient(rgba(250, 250, 250, 0.356),rgba(249, 247, 247, 0.367))
 }
-.icoded i{
+.icoded7 i, .icoded8 i, .icoded9 i{
     position: absolute;
     color: var(--head-color);
     font-size: 55px;
     font-weight: 800;
     top: 120px;
     left: 170px;
-}
-.icoded1 i{
-    position: absolute;
-    color: var(--head-color);
-    font-size: 55px;
-    font-weight: 800;
-    top: 120px;
-    left: 170px;
-}
-.icoded2 i{
-    position: absolute;
-    color: var(--head-color);
-    font-size: 55px;
-    font-weight: 800;
-    top: 120px;
-    left: 170px;
-}
-.galle1:hover .icoded{
-    display: block;
 }
 .galle1:hover .icoded1{
     display: block;
 }
 .galle1:hover .icoded2{
+    display: block;
+}
+.galle1:hover .icoded3{
+    display: block;
+}
+.galle1:hover .icoded4{
+    display: block;
+}
+.galle1:hover .icoded5{
+    display: block;
+}
+.galle1:hover .icoded6{
+    display: block;
+}
+.galle1:hover .icoded7{
+    display: block;
+}
+.galle1:hover .icoded8{
+    display: block;
+}
+.galle1:hover .icoded9{
     display: block;
 }
 /* services */

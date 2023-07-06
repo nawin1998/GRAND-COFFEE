@@ -73,54 +73,98 @@
     }
     /* home */
     .home{
-        background-image: url(images/banner-bg.png);
-        background-size: cover;
-        position: relative;
-        height: 45rem;
+        background-size: 40rem;
+        margin-top: -203px;
+        height: 20rem;
     }
     .swiper {
         position: relative;
-        height: 510px;
-        width: 375px;
-        top: 25%;
-        right: 3px;
-        
+        height: 310px;
+        width: 345px;
+        top: 220px;
+        right: 3px;    
+    }
+    .swiper .swiper-slide h1{
+        font-size: 25px;
+    }
+    .swiper .swiper-slide h2{
+        font-size: 25px;
+    }
+    .swiper .swiper-slide p{
+        font-size: 13px;
+    }
+    .swiper-slide .btn{
+        height: 40px;
+        width: 100px;
+        font-size: 10px;
     }
     .swiper .swiper-button-next{
         position: absolute;
-        top: 400px;
-        left: 120px;
+        top: 220px;
+        left: 180px;
         color: #000000;
-        padding: 30px;
+        padding: 18px;
         background-color: #ffffff;
+        font-size: 10px;
     
     }
     .swiper .swiper-button-prev{
         position: absolute;
-        top: 400px;
-        left: 30px;
+        top: 220px;
+        left: 110px;
         color: #000000;
-        padding: 30px;
+        padding: 18px;
         background-color: #ffffff;
-    
     }
+    .mySwiper [class^="swiper-button-"]::after{
+        font-size: 20px;
+    }
+    
     /* about */
+    .about{
+        position: relative;
+        top: -350px;
+    }
     /* gallery */
+    .gallery{
+        position: relative;
+        top: -300px;
+    }
+    .icoded1{
+        top: 12rem;
+    }
+    .icoded2{
+        top: 31.8rem;
+    }
+    .icoded3{
+        top: 51.5rem;
+    }
+    .icoded4{
+        top: 71.3rem;
+    }
+    .icoded5{
+        top: 91.1rem;
+    }
+    .icoded6{
+        top: 110.7rem;
+    }
+    .icoded7{
+        top: 130.5rem;
+    }
+    .icoded8{
+        top: 150.3rem;
+    }
+    .icoded9{
+        top: 170rem;
+    }
     
-    .galle1:hover .icoded{
-        display: none;
-    }
-    .galle1:hover .icoded1{
-        display: none;
-    }
-    .galle1:hover .icoded2{
-        display: none;
-    }
     /* service */
     .service{
         background-attachment: fixed;
         background-size: cover;
         min-height: 75rem;
+        position: relative;
+        top: -200px;
     }
     .serv-card{
         position: relative;
@@ -131,7 +175,7 @@
     }
     .hoveding{
         position: absolute;
-        top: 316.8rem;
+        top: 11.2rem;
         height: 300px;
         width: 365px;
     }
@@ -141,7 +185,7 @@
     }
     .hoveding1{
         position: absolute;
-        top: 337.4rem;
+        top: 31.9rem;
         height: 300px;
         width: 365px;
     }
@@ -151,7 +195,7 @@
     }
     .hoveding2{
         position: absolute;
-        top: 358.1rem;
+        top: 52.5rem;
         height: 300px;
         width: 365px;
     }
@@ -161,6 +205,10 @@
     }
 
     /* test */
+    .testimonial{
+        position: relative;
+        top: -150px;
+    }
     .containeres{
         width: 100%;
         margin: auto;
@@ -191,10 +239,18 @@
         font-size: 12px;
     }
     /* form */
+    .contact{
+        position: relative;
+        top: -100px;
+    }
     .mapers iframe{
         padding: 0px;
         width: 23rem;
         height: 25rem;
+    }
+    /* footer */
+    .foot-4 h5{
+        font-size: 12px;
     }
     
 }
