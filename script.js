@@ -1,24 +1,13 @@
+// header
+
 hamburger=document.querySelector(".hamburger");
 hamburger.onclick=function(){
 navBar=document.querySelector(".nav-bar");
 navBar.classList.toggle("active");
 }
-// home
-var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    loop: true,
-    autoplay: {
-        delay: 4000,
-        disableOnInteraction: false,
-      },
 
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-  });
-// test
+
+// testimonial
 var testimonials = document.getElementById("testimonials");
 var control1 = document.getElementById("control1");
 var control2 = document.getElementById("control2");
@@ -37,11 +26,13 @@ control2.onclick=function(){
     control3.classList.remove("active");
 }
 control3.onclick=function(){
-    testimonials.style.transform = "translateX(-1340px)";
+    testimonials.style.transform = "translateX(-1350px)";
     control1.classList.add("active");
     control2.classList.remove("active");
     control3.classList.remove("active");
 }
+
+
 // form
     const form = document.getElementById("form");
     var a=document.getElementById("first");

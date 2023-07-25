@@ -77,49 +77,30 @@
         margin-top: -203px;
         height: 20rem;
     }
-    .swiper {
+    .carousel-inner{
         position: relative;
-        height: 310px;
-        width: 345px;
-        top: 220px;
-        right: 3px;    
+        top: 110px;
     }
-    .swiper .swiper-slide h1{
+    .swiper-slide h1{
         font-size: 25px;
     }
-    .swiper .swiper-slide h2{
+     .swiper-slide h2{
         font-size: 25px;
     }
-    .swiper .swiper-slide p{
-        font-size: 13px;
+     .swiper-slide p{
+        font-size: 15px;
     }
     .swiper-slide .btn{
         height: 40px;
         width: 100px;
         font-size: 10px;
     }
-    .swiper .swiper-button-next{
-        position: absolute;
-        top: 220px;
-        left: 180px;
-        color: #000000;
-        padding: 18px;
-        background-color: #ffffff;
-        font-size: 10px;
-    
+    .home .carousel-control-prev{
+       top: 110px;
     }
-    .swiper .swiper-button-prev{
-        position: absolute;
-        top: 220px;
-        left: 110px;
-        color: #000000;
-        padding: 18px;
-        background-color: #ffffff;
+    .home .carousel-control-next{
+       top: 110px; 
     }
-    .mySwiper [class^="swiper-button-"]::after{
-        font-size: 20px;
-    }
-    
     /* about */
     .about{
         position: relative;
@@ -130,32 +111,40 @@
         position: relative;
         top: -300px;
     }
+    .icoded1, .icoded2, .icoded3 ,.icoded4, .icoded5, .icoded6 ,.icoded7, .icoded8, .icoded9{
+        height: 300px;
+        width: 450px;
+    }
+    .icoded1 i, .icoded2 i, .icoded3 i, .icoded4 i, .icoded5 i, .icoded6 i, .icoded7 i, .icoded8 i, .icoded9 i{
+        align-items: center;
+        justify-content: center;
+    }
     .icoded1{
-        top: 12rem;
+        top: 10.5rem;
     }
     .icoded2{
-        top: 31.8rem;
+        top: 30.3rem;
     }
     .icoded3{
-        top: 51.5rem;
+        top: 50rem;
     }
     .icoded4{
-        top: 71.3rem;
+        top: 69.8rem;
     }
     .icoded5{
-        top: 91.1rem;
+        top: 89.6rem;
     }
     .icoded6{
-        top: 110.7rem;
+        top: 109.2rem;
     }
     .icoded7{
-        top: 130.5rem;
+        top: 129rem;
     }
     .icoded8{
-        top: 150.3rem;
+        top: 148.8rem;
     }
     .icoded9{
-        top: 170rem;
+        top: 168.5rem;
     }
     
     /* service */
@@ -166,42 +155,44 @@
         position: relative;
         top: -200px;
     }
+    .servos{
+        padding: 0 1.8rem;
+    }
     .serv-card{
         position: relative;
-        height: 300px;
-        width: 365px;  
-        margin-top: 30px;
-
+        height: 250px;
+        width: 315px;  
+        margin-top: 70px;
     }
     .hoveding{
         position: absolute;
-        top: 11.2rem;
+        top: 12.5rem;
         height: 300px;
-        width: 365px;
+        width: 315px;
     }
     .hoveding .btn4{
         top: 90px;
-        left: 100px;
+        left: 80px;
     }
     .hoveding1{
         position: absolute;
         top: 31.9rem;
         height: 300px;
-        width: 365px;
+        width: 315px;
     }
     .hoveding1 .btn4{
         top: 90px;
-        left: 100px;
+        left: 80px;
     }
     .hoveding2{
         position: absolute;
         top: 52.5rem;
         height: 300px;
-        width: 365px;
+        width: 315px;
     }
     .hoveding2 .btn4{
         top: 90px;
-        left: 100px;
+        left: 80px;
     }
 
     /* test */
@@ -211,16 +202,16 @@
     }
     .containeres{
         width: 100%;
-        margin: auto;
     }
     .view-box{
         width: 96%;
         height: 24rem;
-        
+        margin: 0 10px;
     }
     .testimonials{
         flex-direction: column;
-        width: 100%;
+        width: 100%; 
+         
     }
     .user h3{
         position: relative;
@@ -238,19 +229,32 @@
         margin-left: 420px;
         font-size: 12px;
     }
+    #used::after{
+        display: none;
+    }
+    #used::before{
+        display: none;
+    }
     /* form */
     .contact{
         position: relative;
         top: -100px;
+    }
+    .forming{
+        margin-left: 23px;
+    }
+    .forming1{
+        margin-top: 25px;
+        margin-left: 23px;
+    }
+    .btn5{
+        margin-top: 23px;
     }
     .mapers iframe{
         padding: 0px;
         width: 23rem;
         height: 25rem;
     }
-    /* footer */
-    .foot-4 h5{
-        font-size: 12px;
-    }
+    
     
 }
